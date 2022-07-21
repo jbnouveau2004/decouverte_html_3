@@ -1,0 +1,154 @@
+*{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.cadre{
+    background-color: #2AB3B1;
+    width: 311px;
+    height: 722px;
+    border-radius: 2% 2% 0 0;
+    box-shadow: 5px 5px 5px 5px rgba(200, 200, 200, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.un{
+    background-color: white;
+    width: 311px;
+    height: 268px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.deux{
+    background-color:  #19a19f;
+    width: 311px;
+    height: 227px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trois{
+    background-color: #2ab3b1cb;
+    width: 311px;
+    height: 227px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pub{
+    width: 259px;
+    height : 215px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+h1{
+    font-size: 20px;
+    color: #2AB3B1;
+}
+
+h2{
+    font-size: 15px;
+    color: #C0DF33;
+}
+
+.pub p{
+    line-height: 30px;
+    width: 259px;
+    font-size: 14px;
+    color: #9AA7BE;
+}
+
+.tarif{
+    width: 259px;
+    height: 175px;
+    color: white;
+    background-color:  #19a19f;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+h3{
+    color: white;
+    letter-spacing: 2px;
+}
+
+.prix{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.tarif p{
+
+}
+
+.tarif div{
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.tarif div span{
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: normal ;
+    color: rgba(255, 255, 255, 0.5)
+}
+
+a .bouton{
+    width: 237px;
+    height: 48px;
+    background-color: #C0DF33;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+
+    text-align: center;
+    line-height: 2.5;
+    color: white;
+    text-decoration: underline #C0DF33;
+    font-size: 18px;
+}
+
+.tarif a{
+    display: block;
+    width: 237px;
+    height: 48px;
+}
+
+.why{
+    width: 259px;
+    height: 175px;
+    background-color: #2ab3b1cb;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.why p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.cadre .trois{
+    background-color: #2ab3b1cb;
+}
